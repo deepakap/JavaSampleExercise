@@ -21,8 +21,8 @@ public class BinarySearchDivideBy {
 		
 		
 		
-//		int rst = new BinarySearchDivideBy().runBinarySearchRecursively(data,8,0,data.length-1);
-//		System.out.println(" rslt data is present at position "+rst);
+
+		System.out.println(" rslt data is present at position "+rslt);
 		
 		
 	}
