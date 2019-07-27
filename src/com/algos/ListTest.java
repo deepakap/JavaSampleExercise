@@ -7,9 +7,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.Vector;
 
 /**
@@ -59,6 +63,17 @@ public class ListTest {
 		 Integer[] numArry = (Integer[]) list.toArray(new Integer[list.size()]);
 		
 		System.out.println(Arrays.toString(numArry));
+		
+		
+	    HashMap<String, Integer> hm = new HashMap<String, Integer>();
+	    
+	    Iterator itr = hm.keySet().iterator();
+	    
+	    while(itr.hasNext()){
+	    	hm.get(itr.next());
+	    	
+	    	
+	    }
 		
 	}
 	
