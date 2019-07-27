@@ -12,17 +12,26 @@ package com.app.testng;
 //json simple, guava, apache commons lang3, junit, jmock
 
 import java.util.HashMap;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 
+
 class Main {
  public static void main(String[] args) {
      System.out.println("find duplicate words in a array of strings");
+     
+     SimpleDateFormat format =  new SimpleDateFormat("dd MM YY");
+     Date date = new Date();
+     
+     System.out.println(" Before format date : "+date);
+     System.out.println(" After format date : "+format.format(date));
      
      printDuplicate("Java is java again java");
  }
@@ -55,8 +64,6 @@ class Main {
          int k = hm.get(key);
          if(k!=1)
          System.out.println("  printing duplicate  >>>>>>"+key);
-	    	
-	    	
 	    }
  
  
