@@ -36,20 +36,14 @@ public class Solutions {
 		weightList.add(75);
 
 		System.out.print(" duplicate counts are "+printNumbeOfDuplicateProducts(nameList,priceList,weightList));
-		
-		
-		
-	}
+		}
 	
 	
 	public static int printNumbeOfDuplicateProducts(List<String> nameLst,List<Integer> priceLst,List<Integer> weightLst){
-		
-		
 		HashSet<String> nameSet = new HashSet<String>();
 		HashSet<Integer> priceSet = new HashSet<Integer>();
 		HashSet<Integer> weightSet = new HashSet<Integer>();
 		int nameCnt=0;
-		
 		for(int i=0;i<nameLst.size();i++){
 			
 			if(!nameSet.contains(nameLst.get(i)) && !priceSet.contains(priceLst.get(i)) && !weightSet.contains(weightLst.get(i)))
@@ -63,19 +57,7 @@ public class Solutions {
 			}
 			
 		}
-		
-		
-		
-		
 		return nameCnt;
-		
 	}
 	
-	
-	
-	
-	
-	
-	
-
-}
+	}
