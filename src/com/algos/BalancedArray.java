@@ -38,7 +38,7 @@ class BalancedArray {
             }
             System.out.println(" >>>>> "+temp2);
             if(temp1==temp2){
-                System.out.println(" 2 sub arrays are balaced :  "+temp1+" : "+temp2);
+                System.out.println(" 2 sub arrays are balaced >  "+temp1+" : "+temp2);
             }else{
                 temp1=0;
                 temp2=0;
