@@ -63,7 +63,8 @@ class SimpleBinaryTree {
 	    //System.out.println(" no binary tree found !");
 	  }
 	  if(null != node){
-	    System.out.println(" > "+node.value );
+	    System.out.println(" "+node.value );
+	    System.out.println("       |      ");
 	    fnPrintBinaryTree(node.leftNode);
 	    fnPrintBinaryTree(node.rightNode);
 	  }
